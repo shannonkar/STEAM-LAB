@@ -6,16 +6,27 @@
 #header{
 	min-height: 450px;
 	color: #fff;
-	text-align: center;
 }
 #header .bg-image{
-	position: absolute;
-	background: #333 url('https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-	background-position: center;
+	background: #333 url('/landingpage_pic.jpg');
+	background-position: ;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 450px;
 	z-index: -1;
-	opacity: 0.4;
+	text-align: center;
+	position: absolute;
+		
 }
+#title-name{
+	display: inline-block;
+	position: relative;
+	margin: 200px 200px;
+
+}
+#nav-bar{
+	justify-content: space-between;
+}
+
+
