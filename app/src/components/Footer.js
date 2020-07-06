@@ -9,7 +9,7 @@ const footerStyle = {
   padding: "20px",
   left: "0",
   bottom: "0",
-  height: "350px",
+  height: "450px",
   width: "100%"
 };
 

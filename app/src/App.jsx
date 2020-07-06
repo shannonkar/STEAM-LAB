@@ -10,8 +10,7 @@ class App extends Component{
 	render() {
 		return(
 		<div>
-			<LandingPage />
-			<ContactUs />
+			<LandingPage />	
 			<Footer />
 		</div>
 		);
