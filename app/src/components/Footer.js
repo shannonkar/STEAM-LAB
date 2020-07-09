@@ -24,6 +24,7 @@ function Footer() {
   return (
     <div>
       <div style={phantomStyle} />
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciZmrcLcctBz7mMksMANrxurR9MEoSaZU7VlsYqbjA_wRo9Q/viewform?embedded=true" width="540" height="570" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       <div style={footerStyle}><h5 id="title-name"> STEAM LAB  2020 </h5>
       </div>
 
