@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 import CourseInformation from './CourseInformation'
 import TrackList from './components/TrackList'
 
-
 class App extends Component{
 	constructor(props){
 		super(props)
@@ -19,7 +18,7 @@ class App extends Component{
 			<LandingPage />
 			<TrackList CourseInformation = {CourseInformation} />
 			<ContactUs />
-			<Footer />
+			<LandingPage />	
 		</div>
 		);
 	}
