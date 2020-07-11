@@ -17,7 +17,6 @@ return(
 <div >
 	<LandingPage />
 	<TrackList CourseInformation = {CourseInformation} />
-	<Form />
 	<ContactUs />
 	<Footer />
 </div>
