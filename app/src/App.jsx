@@ -4,6 +4,8 @@ import LandingPage from './components/LandingPage';
 import About from './components/About';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import Form from './components/Form';
+
 
 
 class App extends Component{
@@ -12,6 +14,7 @@ class App extends Component{
 		<div>
 			<LandingPage />	
 			<Footer />
+		
 		</div>
 		);
 	}

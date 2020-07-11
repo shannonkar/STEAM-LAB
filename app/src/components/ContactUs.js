@@ -16,9 +16,7 @@ function ContactUs(){
 
     
       <br />
-      <p> <b>Send us a message or fill below form to join a STEAM-Lab Track, and share your knowledge in one of the key areas.
-      Tutoring with STEAM-LAB provides an opportunity to extend the gift of education to other 
-      curious minds. </b> </p>
+      
       <p></p>
 
 

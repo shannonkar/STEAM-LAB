@@ -4,7 +4,7 @@ import {AppBar, Tabs, Tab} from '@material-ui/core'
 function LandingPage(){
 	return(
 		<div>
-			<AppBar position="static"  style={{ backgroundColor: '#191970', boxShadow: 'none'}}>
+			<AppBar position="static"  style={{ backgroundColor: '#1E90FF', boxShadow: 'none'}}>
 		        <Tabs>
 		          <Tab label="About" />
 		          <Tab label="Courses" />
