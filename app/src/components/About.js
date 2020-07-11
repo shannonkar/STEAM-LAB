@@ -3,8 +3,7 @@ import React from 'react';
 
 function About(){
 	return(
-		<div>
-		
+		<div className = "about">
 		<hr/>
 		<div className="about-paragraph">
 		<p style = {{width: '100%', margin: 'auto', position: 'absolute', left: '50%', top: '50%',

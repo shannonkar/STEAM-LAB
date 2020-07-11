@@ -4,13 +4,20 @@ import LandingPage from './components/LandingPage';
 import About from './components/About';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import CourseInformation from './CourseInformation'
+import TrackList from './components/TrackList'
 
 
 class App extends Component{
+	constructor(props){
+		super(props)
+		
+	}
 	render() {
 		return(
-		<div>
+		<div className = "container">
 			<LandingPage />
+			<TrackList CourseInformation = {CourseInformation} />
 			<ContactUs />
 			<Footer />
 		</div>

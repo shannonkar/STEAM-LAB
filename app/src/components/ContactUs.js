@@ -3,11 +3,7 @@ import {Cell} from 'react-mdl';
 
 function ContactUs(){
   return(
-    <div>
-
-    
-
-
+    <div className = "contactUs">
       <p style={{fontSize: '44px', fontWeight: '400'}}>Contact Us</p>
       <Cell col={6}>
             <hr/>
@@ -21,7 +17,6 @@ function ContactUs(){
             
             </div>
       </Cell>
-
       <p>Send us a message and join a STEAM-Lab Track or share your knowledge in one of the key areas.
       </p>
       <br />
@@ -38,7 +33,7 @@ function ContactUs(){
       </section>
 
    
-    </div > 
+    </div> 
   );
 }
 
