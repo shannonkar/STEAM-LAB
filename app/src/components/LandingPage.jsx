@@ -13,11 +13,13 @@ function LandingPage(){
 		        </Tabs>
 	      </AppBar>
 
-		<header id="showcase"> 
+		<header id="header"> 
+			<div className ="bg-image">
 		     <h1> STEAM LAB </h1>
 		     <p>STEAM-LAB is a Science and Technology centered initatieve that aims to increase the 
 		          level of technology skills among kids in kenya.</p>
-		      <a href = "#" className="button">Read More </a>			 
+		      <a href = "#" className="button">Read More </a>
+		     </div>			 
 		</header>
 
 		</div>

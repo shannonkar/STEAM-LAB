@@ -1,9 +1,11 @@
-import ContactUs from './components/ContactUs';
+import React, {Component} from 'react'
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import CourseInformation from './CourseInformation'
 import TrackList from './components/TrackList'
+import LandingPage from './components/LandingPage'
 import Form from './components/Form';
+import './App.css';
 
 
 class App extends Component{
@@ -12,20 +14,15 @@ super(props)
 }
 render() {
 return(
-<div className = "container">
-<LandingPage />
-<TrackList CourseInformation = {CourseInformation} />
-<ContactUs />
-
-<div>
-<LandingPage /> 
-
-<Footer />
-
+<div >
+	<LandingPage />
+	<TrackList CourseInformation = {CourseInformation} />
+	<Form />
+	<ContactUs />
+	<Footer />
 </div>
-</div>
-);
-}
-}
+	);
+   }
+ }
 
 export default App;
