@@ -32,8 +32,9 @@ const pageMidSecStyle = {
 function Footer() {
   return (
     <div id = "footerline">
-    <div style={footerStyle}></div>
-      <div>      
+    
+      <div style={footerStyle} >      
+
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciZmrcLcctBz7mMksMANrxurR9MEoSaZU7VlsYqbjA_wRo9Q/viewform?embedded=true" width="500" height="370" frameborder="0" marginheight="0" marginwidth="0" align="left">Loading…</iframe>
       </div> 
 

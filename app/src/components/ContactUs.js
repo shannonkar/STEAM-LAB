@@ -4,7 +4,7 @@ import {Cell} from 'react-mdl';
 function ContactUs(){
   return(
     <div>
-      <p style={{fontSize: '44px', fontWeight: '400'}}>Contact Us</p>
+      <p style={{position: 'relative', fontSize: '44px', fontWeight: '400'}}>Contact Us</p>
       <Cell col={6}>
             <hr/>
 

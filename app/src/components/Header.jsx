@@ -11,10 +11,9 @@ function Header(){
 		</nav>
 		<header id="header"> 
 			<div className ="bg-image">
-					<div className = "content-wrap">
-					 <h1 id="title-name"> STEAM LAB </h1>
-					</div>
-
+				<div className = "content-wrap">
+					<h1 style="background-color:powderblue;"> STEAM LAB </h1>
+				</div>
 			</div>
 		</header>
 		</div>

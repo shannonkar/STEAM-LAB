@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import CourseInformation from './CourseInformation'
 import TrackList from './components/TrackList'
 import LandingPage from './components/LandingPage'
+import About from './components/About'
 import Form from './components/Form';
 import './App.css';
 
@@ -16,8 +17,10 @@ render() {
 return(
 <div >
 	<LandingPage />
-	<TrackList CourseInformation = {CourseInformation} />
+	<About />
 	<ContactUs />
+	<TrackList CourseInformation = {CourseInformation} />
+	
 	<Footer />
 </div>
 	);
