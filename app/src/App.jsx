@@ -17,10 +17,7 @@ render() {
 return(
 <div >
 	<LandingPage />
-	<About />
-	<ContactUs />
 	<TrackList CourseInformation = {CourseInformation} />
-	
 	<Footer />
 </div>
 	);

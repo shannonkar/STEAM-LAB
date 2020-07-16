@@ -5,10 +5,11 @@
 }
 .container{
 	display:grid;
+	grid-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
 	grid-template-areas: 
-		"nav nav nav nav"
+		"nav nav nav nav";
 }
 #nav{
 	grid-area: nav
@@ -21,16 +22,22 @@
 
 }
 #header .bg-image{
-	background: #333 url('/landingPage.jpg');
-	background-position: relative;
+	background: #333 url('/imageSub.jpg');
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	align-items: start;
 	width: 100%;
-	height: 770px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
 	z-index: -1;
+	padding: 3rem;
 	text-align: center;
 	position: absolute;
-		
+	margin-bottom: 20px;
+	justify-content: center;
+	box-shadow: var(--shadow);
 }
 #title-name{
 	display: inline-block;
@@ -39,7 +46,7 @@
 
 }
 #showcase{
-	background: #333 url('/landingPage.jpg');
+	background: #333 url('/imageSub.jpg');
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -64,9 +71,9 @@
 #showcase .button{
 	font-size: 20px;
 	text-decoration: none;
-	color: #926239;
+	color: var(--light);
 	border:  #926239 1px solid;
-	padding: 10px 20px;
+	padding: 0.6rem 1.3rem;
 	border-radius: 10px;
 	margin-top: 20px;
 }
@@ -79,4 +86,18 @@
 	position: static;
 	background: transparent;
 	box-shadow: none;
+}
+
+/* Boxes */
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  background: var(--primary);
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow);
 }
