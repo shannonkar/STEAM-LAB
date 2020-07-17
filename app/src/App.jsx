@@ -5,7 +5,7 @@ import CourseInformation from './CourseInformation'
 import TrackList from './components/TrackList'
 import LandingPage from './components/LandingPage'
 import About from './components/About'
-import Form from './components/Form';
+import MainInfo from './components/MainInfo';
 import './App.css';
 
 
@@ -17,7 +17,7 @@ render() {
 return(
 <div >
 	<LandingPage />
-	<TrackList CourseInformation = {CourseInformation} />
+	<MainInfo />
 	<Footer />
 </div>
 	);

@@ -5,10 +5,10 @@ const spaceholder = {
   backgroundColor: "#FFFFFF",
   fontSize: "20px",
   color: "white",
-  padding: "20px",
+  padding: "10px",
   left: "0",
   bottom: "0",
-  height: "350px",
+  height: "50px",
   width: "100%"
 };
 
@@ -16,7 +16,7 @@ const spaceholder = {
 function LandingPage(){
 	return(
 		<div>
-			<AppBar position="static"  style={{ backgroundColor: '#DCDCDC', boxShadow: 'none'}}>
+			<AppBar position="static"  style={{ backgroundColor: '#101010', boxShadow: 'none'}}>
 		        <Tabs>
 		          <Tab label="About" />
 		          <Tab label="Courses" />
