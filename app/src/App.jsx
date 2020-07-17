@@ -6,6 +6,7 @@ import TrackList from './components/TrackList'
 import LandingPage from './components/LandingPage'
 import About from './components/About'
 import MainInfo from './components/MainInfo';
+import BigText from './components/BigText';
 import './App.css';
 
 
@@ -18,6 +19,7 @@ return(
 <div >
 	<LandingPage />
 	<MainInfo />
+	<BigText />
 	<Footer />
 </div>
 	);
