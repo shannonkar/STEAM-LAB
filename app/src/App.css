@@ -1,16 +1,47 @@
-*{
-	box-sizing: border-box;
-	margin: 0 auto;
-	padding: 0;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
-.container{
-	display:grid;
-	grid-gap: 20px;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
-	grid-template-areas: 
-		"nav nav nav nav";
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 10% 1fr 1fr 10%;
+  grid-template-rows: 10% 1fr 1fr 10%;
+  
 }
+.outerFormContainer {
+  display: grid;
+  grid-column: 2/4;
+  grid-row: 2/4;
+  grid-gap: 200px;
+  background-color: #c3dce8;
+  border: solid 3px black;
+}
+.innerFormContainer {
+  grid-column: 2/2;
+  grid-row-start: 1;
+  padding-top: 20px;
+  position: relative;
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.textField {
+  display: block;
+  background-color: blue;
+}
+#emailIcon {
+  width: 100%;
+  padding: 100px 50px 75px 100px;
+}
+ul{
+  text-decoration: none !important;
+  color: red;
+}
+
 #nav{
 	grid-area: nav
 }
@@ -28,7 +59,7 @@
 	background-size: cover;
 	align-items: start;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	display: flex;
 	flex-direction: column;
 	z-index: -1;

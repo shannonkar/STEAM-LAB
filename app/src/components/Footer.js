@@ -7,10 +7,10 @@ const footerStyle = {
   fontSize: "20px",
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
-  padding: "20px",
+  padding: "10px",
   left: "0",
   bottom: "0",
-  height: "530px",
+  height: "430px",
   width: "100%"
 };
 

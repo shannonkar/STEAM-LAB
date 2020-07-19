@@ -20,6 +20,7 @@ return(
 	<LandingPage />
 	<MainInfo />
 	<BigText />
+	<ContactUs />
 	<Footer />
 </div>
 	);
