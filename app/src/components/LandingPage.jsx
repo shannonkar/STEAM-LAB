@@ -29,8 +29,9 @@ function LandingPage(){
 				<div className = "banner-text"> 
               <h1>STEAM LAB KENYA</h1>
               <hr/>
-              <p>STEAM-LAB is a Science and Technology centered initatieve that aims to increase the 
-		          	level of technology skills among kids in kenya.</p>
+              <p>STEAM-LAB is a Science, Technology, Engineering, Arts and Math centered initative whose mission is to increase the that aims to 
+              increase the level of technology understanding, manipulation and development among kids in kenya. We foster innovation, growth and the capacity 
+              to grow and be more.</p>
             </div>	
 		     </div>			 
 			</header>

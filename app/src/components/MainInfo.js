@@ -22,22 +22,22 @@ function MainInfo() {
     	<div className= "box">
     		<i className= "fas fa-chart-pie fa-4x"></i>
     		<h2>Tutoring</h2>
-    		<p>Our core aread is the delivery of technological knowhow to learners of al levels.We cover Science Technology Engineering Arts and Maths. We suplement this with the local curriculum where we extensively tutor and keep the 
-            learners up-to-date with their material</p>
+    		<p>STEAM-LAB's core area is the passing and exchange of technological knowhow to learners of all levels.We cover Science Technology Engineering Arts and Maths. We suplement this with the local curriculum where we extensively tutor and keep the 
+            learners up-to-date with their material.</p>
     	</div> 
 
     	<div className= "box">
     		<i className= "fas fa-chart-pie fa-4x"></i>
     		<h2>Mentorship</h2>
     		<p> We acknowledge the value of mentorship both in younger and older learner population. By providing a platform for mentorship, we present our learners with the opportunity to be guided and have 
-            a place for support. For our ,mentors, what better ways than to extend the gift of innovation and skillset to drive the future!!</p>
+            a place for support. For our mentors, what better ways than to extend the gift of innovation and skillset to drive the future than to hold the hand of younger innovators!!</p>
     	</div>     
 
 
     	<div className= "box">
     		<i className= "fas fa-chart-pie fa-4x"></i>
     		<h2>Networking</h2>
-    		<p>Connect with our extensive network of tutors, techers and technology professionals. It takes a village- we bring the village home!</p>
+    		<p>Connect with our extensive network of tutors, teachers and technology professionals. It takes a village- we bring the village home!</p>
     	</div>  
 
 
