@@ -6,7 +6,7 @@ class BigText extends Component {
     	<div>
 			<div id="bigtext"> 
 				<div className ="biiiig-image">
-		     		<h1> CREATING THE FUTURE WE WANT </h1>
+		     		<h1> CREATING FOR OUR COMMUNITIES </h1>
 		     	</div>			 
 			</div>
 		</div>

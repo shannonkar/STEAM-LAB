@@ -2,7 +2,7 @@ import React from 'react'
 import {AppBar, Tabs, Tab} from '@material-ui/core'
 
 const spaceholder = {
-  backgroundColor: "#FFFFFF",
+  backgroundColor: "#000000",
   fontSize: "20px",
   color: "white",
   padding: "10px",
@@ -19,19 +19,20 @@ function LandingPage(){
 			<AppBar position="static"  style={{ backgroundColor: '#101010', boxShadow: 'none'}}>
 		        <Tabs>
 		          <Tab label="About" />
-		          <Tab label="Courses" />
-		          <Tab label="Testimonials" />
-		          <Tab label="Contact" />
+		          <Tab label="Mission" />
+		          <Tab label="Sign Up" />
 		        </Tabs>
 	      	</AppBar>
 
 			<header id="header"> 
 				<div className ="bg-image">
-		     		<h1> STEAM LAB </h1>
-		     		<p>STEAM-LAB is a Science and Technology centered initatieve that aims to increase the 
+				<div className = "banner-text"> 
+              <h1>STEAM LAB KENYA</h1>
+              <hr/>
+              <p>STEAM-LAB is a Science and Technology centered initatieve that aims to increase the 
 		          	level of technology skills among kids in kenya.</p>
-		     		<a href = "#" className="button">Read More </a>
-		     	</div>			 
+            </div>	
+		     </div>			 
 			</header>
 			<div style={spaceholder} ></div>    
 		</div>

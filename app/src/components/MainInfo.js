@@ -38,8 +38,13 @@ function MainInfo() {
     		<i className= "fas fa-chart-pie fa-4x"></i>
     		<h2>Networking</h2>
     		<p>Connect with our extensive network of tutors, techers and technology professionals. It takes a village- we bring the village home!</p>
-    	</div>     
+    	</div>  
+
+
+
     </div>
+
+    
 
     </div>
   );

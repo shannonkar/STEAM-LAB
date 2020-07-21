@@ -6,8 +6,12 @@ import TrackList from './components/TrackList'
 import LandingPage from './components/LandingPage'
 import About from './components/About'
 import MainInfo from './components/MainInfo';
-import BigText from './components/BigText';
-import './App.css';
+import SignUp from './components/SignUp';
+import Mission from './components/Mission';
+import Routes from './components/Routes';
+import { Link } from  'react-router-dom';
+
+import './App.css'; 
 
 
 class App extends Component{
@@ -19,9 +23,13 @@ return(
 <div >
 	<LandingPage />
 	<MainInfo />
-	<BigText />
-	<ContactUs />
+	<Mission />
+	<SignUp />
 	<Footer />
+
+
+	
+	
 </div>
 	);
    }

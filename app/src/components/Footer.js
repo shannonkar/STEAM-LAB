@@ -3,14 +3,14 @@ import React from 'react';
 
 
 const footerStyle = {
-  backgroundColor: "#1E90FF",
+  backgroundColor: "#696969",
   fontSize: "20px",
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
   padding: "10px",
   left: "0",
   bottom: "0",
-  height: "430px",
+  height: "280px",
   width: "100%"
 };
 
@@ -35,8 +35,14 @@ function Footer() {
     
       <div style={footerStyle} >      
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciZmrcLcctBz7mMksMANrxurR9MEoSaZU7VlsYqbjA_wRo9Q/viewform?embedded=true" width="500" height="370" frameborder="0" marginheight="0" marginwidth="0" align="left">Loading…</iframe>
-      </div> 
+      
+      <div className = "banner-text"> 
+              <h1>STEAM LAB KENYA</h1>
+              <hr/>
+              <p>Mentorship| Tutoring| Career Development</p>
+            </div>
+
+            </div> 
 
 
     </div>

@@ -11,11 +11,27 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+
+
+const footerStyle = {
+  backgroundColor: "#686868",
+  fontSize: "20px",
+  borderTop: "1px solid #E7E7E7",
+  textAlign: "center",
+  padding: "10px",
+  left: "0",
+  bottom: "0",
+  height: "430px",
+  width: "100%",
+  float:"center",
+  color:"white"
+};
+
+
 function ContactUs() {
   const classes = useStyles();
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessages, setErrorMessages] = useState([]);
   const [showErrors, setShowErrors] = useState(false);
@@ -33,7 +49,7 @@ function ContactUs() {
 
     const isNameValid = name !== "";
     const isMessageValid = message !== "";
-    const isSubjectValid = subject !== "";
+ 
 
     if (!isNameValid) {
       errors.push("Name is not valid, please try again.");
@@ -47,9 +63,7 @@ function ContactUs() {
     if (!isMessageValid) {
       errors.push("Message is not valid, please try again.");
     }
-    if (!isSubjectValid) {
-      errors.push("Subject is not valid, please try again.");
-    }
+
     if (errors.length > 0) {
       setShowErrors({ showErrors: true });
       setErrorMessages(errors);
@@ -60,10 +74,9 @@ function ContactUs() {
   };
 
   return (
-    <div className="container">
-      <div className="outerFormContainer">
-        <img id="emailIcon" src="./emailIcon.png" alt="emailIcon" />
+    <div className="container">	
         <div className="innerFormContainer">
+        <div style={footerStyle} >
           <h2> Get in touch </h2>
           <form className={classes.root}>
             <TextField
@@ -80,13 +93,7 @@ function ContactUs() {
               variant="outlined"
               onChange={e => setEmail(e.target.value)}
             />
-            <TextField
-              label="Subject"
-              placeholder="Help with billing"
-              type="text"
-              variant="outlined"
-              onChange={e => setSubject(e.target.value)}
-            />
+
             <TextField
               label="Message"
               placeholder="Joe Doe"
@@ -110,7 +117,7 @@ function ContactUs() {
               Submit
             </Button>
           </form>
-        </div>
+      </div>
       </div>
     </div>
   );
