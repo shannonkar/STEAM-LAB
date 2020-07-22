@@ -3,14 +3,14 @@ import React from 'react';
 
 
 const footerStyle = {
-  backgroundColor: "#696969",
+  backgroundColor: "#F8F8FF",
   fontSize: "20px",
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
   padding: "10px",
   left: "0",
   bottom: "0",
-  height: "280px",
+  height: "180px",
   width: "100%"
 };
 
@@ -36,11 +36,12 @@ function Footer() {
       <div style={footerStyle} >      
 
       
-      <div className = "banner-text"> 
-              <h1>STEAM LAB KENYA</h1>
+     
+              <h1></h1>
               <hr/>
               <p>Mentorship| Tutoring| Career Development</p>
-            </div>
+              <p> Email us at steamlabke@gmail.com </p>
+            
 
             </div> 
 

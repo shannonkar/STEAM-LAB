@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const footerStyle = {
-  backgroundColor: "#1E90FF",
+  backgroundColor: "#000000",
   fontSize: "20px",
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
@@ -32,7 +32,7 @@ const pageMidSecStyle = {
 function Form() {
   return (
     <div style={footerStyle} >  
-    <h4>Sign Up for tutoring or STEAM Career sessions</h4>    
+    <h5>Sign Up for STEAM-LAB KE sessions</h5>    
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciZmrcLcctBz7mMksMANrxurR9MEoSaZU7VlsYqbjA_wRo9Q/viewform?embedded=true" width="500" height="370" frameborder="0" marginheight="0" marginwidth="0" align="center">Loading…</iframe>
     </div>
   );

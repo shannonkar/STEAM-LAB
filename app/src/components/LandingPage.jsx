@@ -16,14 +16,6 @@ const spaceholder = {
 function LandingPage(){
 	return(
 		<div>
-			<AppBar position="static"  style={{ backgroundColor: '#101010', boxShadow: 'none'}}>
-		        <Tabs>
-		          <Tab label="About" />
-		          <Tab label="Mission" />
-		          <Tab label="Sign Up" />
-		        </Tabs>
-	      	</AppBar>
-
 			<header id="header"> 
 				<div className ="bg-image">
 				<div className = "banner-text"> 

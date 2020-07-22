@@ -29,7 +29,17 @@
 	padding: 1em;
 }
 
-
+.imagefooter{
+  background: #333 url('/beads.jpg');
+  fontSize: "20px";
+  borderTop: "1px solid #E7E7E7";
+  textAlign: "center";
+  padding: "10px";
+  left: "0";
+  bottom: "0";
+  height: "580px";
+  width: "100%";
+}
 
 
 .container {
@@ -131,7 +141,7 @@ ul{
 }
 
 #bigtext .biiiig-image{
-	background: #333 url('/kidsnlaptop.jpeg');
+	background: #333 url('/metalthingy.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -144,7 +154,7 @@ ul{
 	padding: 3rem;
 	text-align: center;
 	position: absolute;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 	justify-content: center;
 	box-shadow: var(--shadow);
 }
