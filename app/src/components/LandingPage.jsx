@@ -1,11 +1,14 @@
 import React from 'react'
 import {AppBar, Tabs, Tab} from '@material-ui/core'
+import Footer from './Footer';
+import MainInfo from './MainInfo';
+import Mission from './Mission';
 
 const spaceholder = {
   backgroundColor: "#000000",
   fontSize: "20px",
   color: "white",
-  padding: "10px",
+  paddingTop: "100px",
   left: "0",
   bottom: "0",
   height: "50px",
@@ -15,6 +18,7 @@ const spaceholder = {
 
 function LandingPage(){
 	return(
+    <div>
 		<div>
 			<header id="header"> 
 				<div className ="bg-image">
@@ -29,6 +33,13 @@ function LandingPage(){
 			</header>
 			<div style={spaceholder} ></div>    
 		</div>
+
+   <div>
+    <MainInfo />
+    <Mission />
+    <Footer/>
+  </div>
+  </div>
 	)
 }
 

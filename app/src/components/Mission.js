@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class BigText extends Component {
+class Mission extends Component {
   render() {
     return (
     	<div>
-			<div id="bigtext"> 
+			<div id= "big-text"> 
 				<div className ="biiiig-image">
 		     		<h1> CREATING FOR OUR COMMUNITIES </h1>
 		     		<h3>The STEAM LAB KE Community is dedicated support all young people in our network get the most our of their
@@ -18,4 +18,4 @@ class BigText extends Component {
   }
 }
 
-export default BigText;      	
+export default Mission;      	

@@ -1,5 +1,4 @@
 * {
-  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   text-align: center;
@@ -108,6 +107,7 @@ ul{
 	margin-bottom: 20px;
 	justify-content: center;
 	box-shadow: var(--shadow);
+	height: 100vh;
 }
 #title-name{
 	display: inline-block;
@@ -201,4 +201,13 @@ ul{
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
+}
+#main{
+	height: 100vh;
+	padding-top: 130px;
+}
+.courses{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
 }
