@@ -19,6 +19,15 @@ class About extends Component {
           </p>
           <p>Teaching a generation.</p>
          </div>
+
+
+         <div className = "banner-text"> 
+              <h1>STEAM LAB KENYA</h1>
+              <hr/>
+              <p>STEAM-LAB is a Science, Technology, Engineering, Arts and Math centered program whose mission is to  
+              increase the level of technology understanding, manipulation and development among young people in kenya. We foster innovation, growth and the capacity 
+              to grow and be more.</p>
+            </div>  
       </section>
 
       </div>

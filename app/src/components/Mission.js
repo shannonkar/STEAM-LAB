@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Mission extends Component {
-  render() {
+
+function Mission(){
     return (
     	<div>
-			<div id= "big-text"> 
-				<div className ="biiiig-image">
+			<div id= "biiiig-image"> 
+				<div className ="big-text">
 		     		<h1> CREATING FOR OUR COMMUNITIES </h1>
 		     		<h3>The STEAM LAB KE Community is dedicated support all young people in our network get the most our of their
 		     		STEM and Arts education and interests. We are a growing community with a platform to grow with each other from 
@@ -15,7 +15,6 @@ class Mission extends Component {
 			</div>
 		</div>
 	)
-  }
 }
 
 export default Mission;      	

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import ContactUs from './components/ContactUs';
+import CareerDev from './components/CareerDev';
 import Footer from './components/Footer';
 import CourseInformation from './CourseInformation'
 import TrackList from './components/TrackList'
@@ -8,6 +8,7 @@ import About from './components/About'
 import MainInfo from './components/MainInfo';
 import SignUp from './components/SignUp';
 import Mission from './components/Mission';
+import Navbar from './components/Navbar';
 import {Layout, Navigation, Header, Drawer,Content} from 'react-mdl';
 import Routes from './components/Routes';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -23,36 +24,15 @@ super(props)
 }
   render() {
     return(
-    	<Router>
-		<div >
-			<Layout fixedHeader>
-        		<Header className = "header-color" title={<span><span style={{ color: '#eaeaea' }}>STEAM-LAB</span><strong></strong></span>}>
-		            <Navigation>
-		                <Link  to="/About#main" scroll={el => el.scrollIntoView({ behavior: 'instant', block: 'end' })}>About Us</Link>
-		                <Link to="/Courses">Courses</Link>
-		                <Link to = "/ContactUs">Contact Us</Link>
-		            </Navigation>
-        		</Header>
-        		<Drawer style ={{color: "#e" }} title="Title">
-		            <Navigation>
-		                 <Link to="/About">About Us</Link>
-		                <Link to="/Courses">Courses</Link>
-		                <Link to = "/ContactUs">Contact US</Link>
-		            </Navigation>
-       			 </Drawer>
-
-		        <Content>
-		        	<div>
-		        		<Route exact path = "/" component = {LandingPage}/>
-		        		<Route  path = "/Courses" component = {Courses}/>
-		        		
-		        	</div>
-		        </Content>
-   			 </Layout>
-			
-
+		<div>
+			<Navbar />
+			<LandingPage/>
+      <Mission />
+    	<MainInfo />
+      
+    	<Courses />
+    	<Footer/>
 		</div>
-	</Router>
 	);
    }
  }

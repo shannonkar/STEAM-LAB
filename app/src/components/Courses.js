@@ -32,20 +32,19 @@ const Courses = () =>{
 	return(
 		<div className = "courses">
 		<Card shadow={5} style={{minwidth: '450px', height: '320px', margin: 'auto'}} className={classes.root}>
-		    <CardTitle expand style={{color: '#ffff', background: '#7d5a5a'}}  className={classes.media}>Intro to HTML & CSS</CardTitle>
-		    <CardMedia component="img" square src={require('../images/bulbs.jpg')} /> 
+		    <CardTitle expand style={{color: '#ffff', background: '#228B22'}}  className={classes.media}>Intro to HTML & CSS</CardTitle>
+		   
 		    <CardText>
-		       Moodify generates song suggestions based on a user’s mood. The project utilized Spotify API, ReactJS and Node.JS. 
+		       We cover HTML and CSS concepts and culminate with a project that puts the lessons into practice. 
   		    </CardText>
     		<CardActions border>
-        	<Button colored><a href = "https://github.com/csc4790-fall2019/Moodify" style = {{color: "blue"}}>Github</a></Button>
-        	<Button colored> <a href = "https://www.youtube.com/watch?v=rnjEukvtu-w" style = {{color: "blue"}}>Live Demo </a></Button>
+        	<Button colored><a href = "hhttps://forms.gle/4rD53PSFZyWQp3Xp6" style = {{color: "blue"}}>Register Here</a></Button>
     		</CardActions>
 
 		</Card>
 
 			<Card shadow={5} style={{minwidth: '450px', height: '320px', margin: 'auto'}} className={classes.root}>
-		    <CardTitle expand style={{color: '#ffff', background: '#f1d1d1'}}>Intro to Java</CardTitle>
+		    <CardTitle expand style={{color: '#ffff', background: '#4B0082'}}>Intro to Java</CardTitle>
 		    <CardText>
 		         Face Recognition App recognizes faces using Clarify API. The website was implemented using ReactJS, Node.JS, and PostgreSQL. 
   			  </CardText>
@@ -56,7 +55,7 @@ const Courses = () =>{
 
 			</Card>
 			<Card shadow={5} style={{minwidth: '450px', height: '320px', margin: 'auto'}} className={classes.root}>
-		    <CardTitle expand style={{color: '#ffff', background: '#ad6989'}}>Intro to Python</CardTitle>
+		    <CardTitle expand style={{color: '#ffff', background: '#C71585'}}>Intro to Python</CardTitle>
 		    <CardText>
 		       Worked in a team of 4 students to design, create and test a 2D platformer game using C#, Unity and Microsoft Visual Studio
   			  </CardText>
@@ -67,6 +66,5 @@ const Courses = () =>{
 			</Card>
 		</div>
 		)
-
 }
 export default Courses;
