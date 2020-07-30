@@ -29,16 +29,16 @@
 	padding: 1em;
 }
 
-.imagefooter{
-  background: #333 url('/beads.jpg');
+.imageAbout{
+  background: #333 url('/logo1.jpg');
   fontSize: "20px";
   borderTop: "1px solid #E7E7E7";
   textAlign: "center";
   padding: "10px";
   left: "0";
   bottom: "0";
-  height: "580px";
-  width: "100%";
+  height: "380px";
+  width: "50%";
 }
 
 #header{
@@ -49,7 +49,7 @@
 
 }
 #header .bg-image{
-	background: #333 url('/kidsnlaptop.jpeg');
+	background: #333 url('/landingpage_pic.jpg');
 	background-color: white;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -76,57 +76,56 @@
 
 .info {
     grid-template-columns: 1fr;
+
   }
 
-#showcase{
-	background: #333 url('/kidsnlaptop.jpg');
-	height: 100vh;
-	background-size: cover;
+
+.learning{
+	background: #333 url('/books.jpg');
 	background-position: center;
-	display: flex;
+	background-size: cover;
+	align-items: start;
+	z-index: -1;
+	text-align: center;
+	justify-content: center;
+	box-shadow: var(--shadow);
+	position: relative;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	padding: 0 20px;
-	position: relative;
+	padding: 0 20px;	
+}
+
+.learning h1{
+	color: black;
+	
+}
+.learning h4{
+	font-size: 25px;
+	color: black;
+
 }
 
 
-
 #bigtext{
-	min-height: 450px;
-	color: #fff;
-	height: 100vh;
-	position: relative;
+	color: #000000;
 
 }
 
 #bigtext .biiiig-image{
-	background: #333 url('/molecule.jpg');
+	background-color: #00BFFF;
 	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
 	align-items: start;
-	width: 100%;
-	height: 450px;
 	display: flex;
-	flex-direction: column;
 	z-index: -1;
-	padding: 3rem;
 	text-align: center;
-	margin-bottom: 4px;
 	justify-content: center;
 	box-shadow: var(--shadow);
+	position: relative;
 }
-#showcase h1{
-	font-size: 50px;
-	line-height: 1.2;
-}
-#showcase p{
-	font-size: 20px;
 
-}
 
 #showcase .button{
 	font-size: 20px;
@@ -151,21 +150,29 @@
 }
 
 .navbar{
-	background-color: #000000;
-	position: sticky;
+	background-color: var(--off-white);
+  	position: sticky;
+  	top: 0px;
+  	width: 100%;
+  	height: 100px;
+  	z-index: 1000;
+  	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 	align-items: center;
 	display: block;
-	top:0;
-	width: 100%;
-	height: 50px;
 	text-align: left;
-	font-size: 1.5vw;
-	z-index: 1000;
-  	position: absolute;
- 	top: 0px;
-  	left: 0;
-  	width: 100%;
  	padding: 0.5em;
+ 	justify-content: space-between;
+}
+
+.navbar-logo {
+  height: 80px;
+  width: 100px;
+  float: left;
+
+}
+
+.navbar-logo:hover {
+  cursor: pointer;
 }
 
 .navbar .navbar-content {
@@ -176,19 +183,16 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+
 }
 
 .navbar-item {
   display: inline;
   margin-left: 2rem;
   color: #333;
+  font-size: 10px;
 }
 
-.navbar-logo {
-  height: 60px;
-  width: 60px;
-  background: #333 url('/logo.png');
-}
 
 .navbar-item:hover {
   color: black;
@@ -198,7 +202,14 @@
 	background-color: #DCDCDC;
 }
 
-
+/*CSS for logo icon*/
+.navbar-brand{
+	display: flex;
+	align-items:center;
+}
+.navbar-brand >img{
+	padding: 7px 14px;
+}
 
 /* Boxes */
 .boxes {
@@ -214,7 +225,6 @@
   box-shadow: var(--shadow);
 }
 #main{
-	
 	position: relative;
 }
 .courses{
@@ -226,7 +236,7 @@
 
 
 .social-container {
-  background: #FF1493;
+  background: #FFFFFF;
   padding: 25px 50px;
 }
 a.social {

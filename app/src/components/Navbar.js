@@ -1,28 +1,33 @@
 import React, { Component } from "react";
+import logo from "../logo.png";
 import {Link, animateScroll as scroll} from "react-scroll";
+
 
 class Navbar extends Component{
 	scrollToTop = () => {
-    scroll.scrollToTop(); };
-	state = {};
+       scroll.scrollToTop(); 
+	};
 	render(){
 		return(
-			<div className = "navbar">
+			<div className = "navbar" id="navbar">
 			<div className = "navbar-content">
 				<img 
-					className = "nav-logo"
+					src={logo}
+					className = "navbar-logo"
+					alt="Logo"
 					onClick={this.scrollToTop}
 				/>
 				<ul className="navbar-items">
 					<li className="navbar-item" >
 					<Link
 						activeClass = "active"
-						to="header"
+						to="banner-text"
 						spy={true}
-						offset={0}
+						navWidth={600}
+						offset={-70}
 						duration = {500}
 						>
-				 	Home
+				 	ABOUT
 					</Link>
 					</li>
 
@@ -31,34 +36,37 @@ class Navbar extends Component{
 						activeClass = "active"
 						to="main"
 						spy={true}
-						offset={0}
+						navWidth={600}
+						offset={-70}
 						duration = {500}
 					>
-						Key Areas
+						KEY AREAS
 					</Link>
 					</li>
 
 					<li className="navbar-item">
 					<Link
 						activeClass = "active"
-						to="courses"
+						to="learning"
 						spy={true}
-						offset={0}
+						navWidth={600}
+						offset={-70}
 						duration = {500}
 					>
-						Courses
+						TUTORING
 					</Link>
 					</li>
 
 					<li className="navbar-item">
 					<Link
 						activeClass = "active"
-						to="big-text"
+						to="bigtext"
 						spy={true}
-						offset={0}
+						navWidth={600}
+						offset={-70}
 						duration = {500}
 					>
-						Mission
+						COMMUNITY
 					</Link>
 					</li>
 				</ul>
