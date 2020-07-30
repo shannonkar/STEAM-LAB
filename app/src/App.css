@@ -81,7 +81,7 @@
 
 
 .learning{
-	background: #333 url('/books.jpg');
+	background: #333 url('/molecule.jpg');
 	background-position: center;
 	background-size: cover;
 	align-items: start;
@@ -115,6 +115,7 @@
 
 #bigtext .biiiig-image{
 	background-color: #00BFFF;
+
 	background-position: center;
 	background-size: cover;
 	align-items: start;
@@ -150,7 +151,7 @@
 }
 
 .navbar{
-	background-color: var(--off-white);
+	background-color:white;
   	position: sticky;
   	top: 0px;
   	width: 100%;
@@ -236,7 +237,7 @@
 
 
 .social-container {
-  background: #FFFFFF;
+  background: #C71585;
   padding: 25px 50px;
 }
 a.social {
