@@ -183,7 +183,6 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-
 }
 
 .navbar-item {
@@ -191,6 +190,7 @@
   margin-left: 2rem;
   color: #333;
   font-size: 10px;
+  font-weight: bold;
 }
 
 
