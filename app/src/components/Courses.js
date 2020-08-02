@@ -32,7 +32,7 @@ const Courses = () =>{
 	return(
 		<div className = "courses">
 		<Card shadow={5} style={{minwidth: '450px', height: '320px', margin: 'auto'}} className={classes.root}>
-		    <CardTitle expand style={{color: '#ffff', background: '#228B22'}}  className={classes.media}>Intro to Wed Development</CardTitle>
+		    <CardTitle expand style={{color: '#ffff', background: '#228B22'}}  className={classes.media}>Intro to Web Development</CardTitle>
 		   
 		    <CardText>
 		       We cover HTML and CSS concepts and culminate with a project that puts the lessons into practice. 

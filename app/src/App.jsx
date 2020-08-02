@@ -7,6 +7,9 @@ import Mission from './components/Mission';
 import Navbar from './components/Navbar';
 import './App.css'; 
 import Tutoring from './components/Tutoring';
+import Courses from './components/Courses';
+import Routes from './components/Routes'
+
 
 
 class App extends Component{
@@ -17,12 +20,14 @@ super(props)
     return(
 		<div className = "App">
 			<Navbar />
-			<LandingPage/>
+			<Routes />
+    {/*<LandingPage/>
       <About />
       <MainInfo />
       <Tutoring />
       <Mission />
-    	<Footer/>
+      <Footer/>*/}
+      
 		</div>
 	);
    }
